@@ -1,0 +1,34 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.Container h2{
+    margin-bottom: 50%;
+}
+
+.Item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    border: 1px solid grey;
+    width: 1200px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.Item img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
